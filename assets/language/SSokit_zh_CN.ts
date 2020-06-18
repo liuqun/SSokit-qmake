@@ -37,7 +37,7 @@
     <message>
         <location filename="Strings.qml" line="9"/>
         <source>SSokit</source>
-        <translation>SSokit</translation>
+        <translation>新范式网络调试助手</translation>
     </message>
     <message>
         <location filename="Strings.qml" line="10"/>
@@ -117,12 +117,17 @@
     <message>
         <location filename="Strings.qml" line="34"/>
         <source>About SSokit</source>
-        <translation>关于</translation>
+        <translation>帮助</translation>
     </message>
     <message>
         <location filename="Strings.qml" line="35"/>
         <source>Author</source>
         <translation>作者</translation>
+    </message>
+    <message>
+        <location filename="Strings.qml" line="108"/>
+        <source>Product</source>
+        <translation>产品名称</translation>
     </message>
     <message>
         <location filename="Strings.qml" line="36"/>

@@ -103,4 +103,7 @@ QtObject {
 
     //LogItemDetailView
     property var logItemDataType: [qsTr("ASC"),qsTr("HEX"),qsTr("TEXT"),qsTr("HEX2")]
+
+    //AboutSettingView additional
+    property var product: qsTr("Product")
 }
