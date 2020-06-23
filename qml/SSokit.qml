@@ -22,7 +22,7 @@ ApplicationWindow{
         id:aboutDialog
     }
 
-    Dialogs.UpdateDialog{
+    Dialogs.AboutDialog{
         id:updateDialog
     }
 
@@ -71,9 +71,9 @@ ApplicationWindow{
             //        BottomButton{
             //            text:Strings.mainTabCOM
             //        }
-            Widgets.BottomButton{
-                text:Strings.mainTabTool
-            }
+            //Widgets.BottomButton{
+            //    text:Strings.mainTabTool
+            //}
             //        BottomButton{
             //            id:peltte
             //            text:"Plette"
@@ -129,6 +129,7 @@ ApplicationWindow{
                 onTapped: aboutDialog.toggleAboutDialog()
             }
             visible: true
+            opacity:0 //临时透明化隐藏“about.png”图标，但是仍可以盲点打开
         }
     }
 

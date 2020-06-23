@@ -39,22 +39,6 @@ Item {
             }
 
 
-            Components.SwitchLayout{
-                text: Strings.settingShowClear
-                checked: SettingTool.getShowSendClear()
-
-                onSwitchCheckedChanged: {
-                    SettingTool.setShowSendClear(checked)
-                }
-            }
-
-
-            Rectangle{
-                Layout.topMargin: 20
-                Layout.fillWidth: true
-                Layout.preferredHeight:1
-                color: "#bdbdbd"
-            }
 
 
             Components.SwitchLayout{
@@ -99,3 +83,9 @@ Item {
         }
     }
 }
+
+/*##^##
+Designer {
+    D{i:0;autoSize:true;height:480;width:640}
+}
+##^##*/

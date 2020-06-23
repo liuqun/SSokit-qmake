@@ -38,7 +38,7 @@
         <location filename="Strings.qml" line="9"/>
         <source>SSokit</source>
         <oldsource>ssokit_title</oldsource>
-        <translation type="unfinished"></translation>
+        <translation>Xinfanshi Network Helper</translation>
     </message>
     <message>
         <location filename="Strings.qml" line="10"/>
@@ -213,7 +213,7 @@
     <message>
         <location filename="Strings.qml" line="60"/>
         <source>LogView Enable Hover To Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Enable Mouse Hover</translation>
     </message>
     <message>
         <location filename="Strings.qml" line="61"/>

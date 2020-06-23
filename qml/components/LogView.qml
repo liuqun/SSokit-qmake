@@ -132,6 +132,7 @@ ColumnLayout{
 
         Widgets.GeneralCheckBox{
             id: showLogItemDetail
+            opacity:0 //临时透明化禁止显示“详细信息”勾选框，不影响功能
             Layout.columnSpan: 1
             Layout.fillWidth: true
             Layout.preferredWidth: 30

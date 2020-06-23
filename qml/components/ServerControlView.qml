@@ -12,8 +12,8 @@ Column {
     property string title: Strings.controlCenter//标题
     property string labelAddr: Strings.controlAddr
     property string labelPort: Strings.controlPort
-    property string btnConnect: Strings.controlConnect
-    property string btnDisconnect: Strings.controlDisconnect
+    property string btnConnect: (viewType===2||viewType===4)? Strings.controlConnect:"Open"
+    property string btnDisconnect: (viewType===2||viewType===4)? Strings.controlDisconnect:"Close"
     property string btnDisable: Strings.controlDisable
     property string portTip: Strings.controlPortTip
     property string labelTime: Strings.controlTime

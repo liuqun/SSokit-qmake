@@ -36,8 +36,8 @@ Item {
             Text { Layout.columnSpan: 2;text: Strings.applicationTitle; }
             Text { text: Strings.version; font.bold: true; }
             Text { Layout.columnSpan: 2;text: Strings.versionValue; }
-            Text { text: Strings.releaseDate; font.bold: true; }
-            Text { Layout.columnSpan: 2;text: Strings.releaseDateValue; }
+//            Text { text: Strings.releaseDate; font.bold: true; }
+//            Text { Layout.columnSpan: 2;text: Strings.releaseDateValue; }
 //            Text { text: Strings.source; font.bold: true }
 //            Text {
 //                Layout.columnSpan: 2

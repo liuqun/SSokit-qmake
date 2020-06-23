@@ -102,7 +102,7 @@ Drawer {
             anchors.top: container_function.bottom
             anchors.topMargin: 20
             source: "qrc:/assets/images/shortcut.png"
-            text: Strings.settingShortCut
+            text: " "//Strings.settingShortCut
             onCheckedChanged: {
                 if(!checked){
                     return

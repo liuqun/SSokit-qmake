@@ -29,7 +29,7 @@
     <message>
         <location filename="../../qml/tool/JsonFormatView.qml" line="15"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -67,7 +67,7 @@
     <message>
         <location filename="Strings.qml" line="23"/>
         <source>NotePad</source>
-        <translation type="unfinished">记事本</translation>
+        <translation>记事本</translation>
     </message>
     <message>
         <location filename="Strings.qml" line="17"/>
@@ -221,7 +221,7 @@
     <message>
         <location filename="Strings.qml" line="59"/>
         <source>LogView Enable Hover To Select</source>
-        <translation>激活日志划过选中</translation>
+        <translation>鼠标悬停时高亮显示</translation>
     </message>
     <message>
         <location filename="Strings.qml" line="60"/>
@@ -232,19 +232,19 @@
         <location filename="Strings.qml" line="61"/>
         <source>Enable Receive Sound</source>
         <translatorcomment>接收提醒</translatorcomment>
-        <translation>收到消息提醒</translation>
+        <translation>收到消息播放提示音</translation>
     </message>
     <message>
         <location filename="Strings.qml" line="62"/>
         <source>Enable Send Sound</source>
         <translatorcomment>发送消息</translatorcomment>
-        <translation>发送时提醒</translation>
+        <translation>发送成功播放提示音</translation>
     </message>
     <message>
         <location filename="Strings.qml" line="63"/>
         <source>Enable Sound</source>
         <translatorcomment>全部提醒</translatorcomment>
-        <translation>系统声音</translation>
+        <translation>其他界面音效</translation>
     </message>
     <message>
         <location filename="Strings.qml" line="66"/>
@@ -398,22 +398,22 @@
     <message>
         <location filename="Strings.qml" line="105"/>
         <source>ASC</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="Strings.qml" line="105"/>
         <source>HEX</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="Strings.qml" line="105"/>
         <source>TEXT</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="Strings.qml" line="105"/>
         <source>HEX2</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 </TS>

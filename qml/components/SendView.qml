@@ -82,7 +82,7 @@ GroupBox{
                     TapHandler{
                         onTapped: buffer1.clear()
                     }
-                    visible: SettingTool.getShowSendClear()
+                    visible: false//SettingTool.getShowSendClear()
                 }
                 Button{
                     enabled: canSendMsg
@@ -134,7 +134,7 @@ GroupBox{
                     TapHandler{
                         onTapped: buffer2.clear()
                     }
-                     visible: SettingTool.getShowSendClear()
+                     visible: false//SettingTool.getShowSendClear()
                 }
                 Button{
                     enabled: canSendMsg
@@ -171,7 +171,7 @@ GroupBox{
                     Layout.fillWidth: true
                     Layout.fillHeight: false
                     Layout.preferredHeight: 30
-                    placeholderText: "该行内容为纯文本发送"
+                    placeholderText: ""//placeholderText: "该行内容为纯文本发送"
                     background: Rectangle {
                         color: buffer3.enabled ? "transparent" : "transparent"
                         border.color: buffer3.enabled ? "#bdbdbd" : "#bdbdbd"
@@ -188,7 +188,7 @@ GroupBox{
                     TapHandler{
                         onTapped: buffer3.clear()
                     }
-                     visible: SettingTool.getShowSendClear()
+                     visible: false//SettingTool.getShowSendClear()
                 }
 
                 Button{
@@ -212,12 +212,14 @@ GroupBox{
             RowLayout{
                 Layout.fillWidth: true
                 Layout.fillHeight: false
-                Layout.preferredHeight: 30
+                //Layout.preferredHeight: 30
                 Widgets.GeneralCheckBox{
                     Layout.leftMargin: 50
                     id:showHeader
+                    visible: false //临时隐藏
+                    enabled: true
                     text: Strings.sendAdvance
-                    Layout.preferredHeight: 16
+                    //Layout.preferredHeight: 16
                     checked: false
 
                     onCheckedChanged: {
